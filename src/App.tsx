@@ -199,7 +199,6 @@ export default function App() {
           <div className="hidden md:flex gap-10 items-center text-sm font-medium text-slate-300">
             <a href="#services" className="hover:text-white transition-colors">Consulting</a>
             <a href="#expertise" className="hover:text-white transition-colors">Security</a>
-            <a href="#about" className="hover:text-white transition-colors">Cloud</a>
             <button 
               onClick={() => setView("details")}
               className="text-indigo-400 hover:text-white flex items-center gap-1 transition-colors"
